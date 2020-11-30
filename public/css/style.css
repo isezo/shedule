@@ -1,0 +1,72 @@
+.fixed-middle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10%;
+}
+
+body {
+  background-blend-mode: multiply;
+  background-image: url(https://preview.erilisdesign.com/html/muriel/assets/images/image-3.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #405be8;
+  color: white;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background: #dc3545;
+  color: white;
+  text-shadow: 0 1px 1px #2D2020;
+  padding: 10px 20px;
+}
+
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+
+th:first-child,
+td:first-child {
+  text-align: center;
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+  border-right: none;
+}
+
+td {
+  padding: 10px 20px;
+  background: #6c757d;
+}
+
+tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+  border-right: none;
+}
+
